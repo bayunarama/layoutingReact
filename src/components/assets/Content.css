@@ -1,0 +1,17 @@
+.Content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+}
+.Content .leftside{
+    display: flex;
+    flex: 50%;
+    margin: auto;
+}
+
+.Content .rightside{
+    display: flex;
+    flex: 50%;
+    margin: auto;
+}

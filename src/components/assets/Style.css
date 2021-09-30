@@ -1,0 +1,136 @@
+/* 
+.App{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+    background-color:#ffffff;
+}
+.Header{
+    background-color:#ffffff;
+    height: 62px;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 1px solid #E3E7EE ;
+    max-width: 1360px ;
+}
+
+.Header .leftside{
+    flex: 50%;
+    margin: 0px ;
+}
+
+
+
+.Header .rightside{
+    flex: 50%;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+
+.Header .leftside{
+    flex: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    padding: 0px 16px;
+}
+
+.Header .rightside .links {
+    max-height: 62px;
+    display: block;
+}
+
+a{
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 32px;
+}
+
+@media only screen and (max-width:788px) {
+    .Header .rightside .links {
+    display: none;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    min-height: 1140px;
+} */
+
+.Header{
+    background-color: red;
+    z-index: 90;
+    width: 100%;
+}
+
+Header{
+    background-color: white;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.container-header{
+    display: flex;
+    max-width: 1360px;
+    align-items: center;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.links{
+    right: 100%;;
+    right: 0px;
+    margin-left: auto;
+}
+
+
+
+.links a{
+
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px;
+    text-decoration: none;
+    color: #1e1e1e;
+    margin-right: 20px;
+}
+
+.button{
+    background-color: #07b53b;
+    padding: 8px 12px;
+    border-radius: 100px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.button :hover{
+    transform: scale(2);
+}
+
+@media only screen and (max-width:768px) {
+    .links{
+       display: none;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+    .button{
+       display: none;
+    }
+    
+}
+
