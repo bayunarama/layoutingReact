@@ -1,0 +1,51 @@
+
+  .Socmed {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 16px;
+  }
+
+  .container-socmed{
+    display: flex;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .container-socmed ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .container-socmed ul li{
+    text-decoration: none;
+    margin-left: 16px;
+    display: inline-block;
+    align-items: center;
+  }
+
+  .Button-email{
+      padding: 12px 16px;
+      background-color: #07b53b;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 100px;
+      cursor: pointer;
+      max-height: 100vh;
+  }
+
+  
+  
+
+
+  @media only screen and (max-width: 1024px) {
+    .Socmed {
+      width: 90%;
+    }
+  }
+  
+

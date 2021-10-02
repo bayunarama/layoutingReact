@@ -10,18 +10,22 @@
 
 .container-body{
   display: flex;
-  max-width: 1360px;
+  max-width: 1200px;
   margin: auto;
   padding: 10px;
-}
-.rightside{
-  display: flex;
-  align-self: center;
+  flex-wrap: nowrap;
 }
 
 .leftside{
-  max-width: 700px;
+height: auto;
 }
+
+.rightside{
+  align-self: center;
+  height: auto;
+}
+
+
 .Name-User {
   font-size: 32px;
   font-weight: 700;
@@ -48,14 +52,30 @@
 
 }
 
-.rightside{
-  background-color:;
+.content{
+  display: flex;
+  flex-direction: column;
 }
+
 .profile {
-  width: 300px;
+  width: 395px;
   height: 300px;
   margin-top: 30px;
-  border-radius: 50%;
+}
+
+.button-email{
+  padding: 8px 12px;
+  background-color: #07b53b; 
+}
+
+
+
+/* Break Point*/
+
+@media only screen and (max-width: 1200px) {
+  .Body {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -65,11 +85,7 @@
 }
 
 @media only screen and (max-width: 768px) { 
-  .profile {
-    width: 100%;
-    border-radius: 0%;
-    height: auto;
-  }
+
 }
 
 @media only screen and (max-width: 992px) { 
@@ -85,53 +101,56 @@
   .container-body {
   flex-wrap: wrap;
   }
+
+  .container-body{
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .container-body{
     flex-wrap: wrap;
+    width: 100%;
   }
-}
 
-@media only screen and (max-width: 768px) {
+  .profile {
+    width: 80%;
+    border-radius: 0%;
+  }
+
   .Body{
     flex-wrap: wrap;
+    width: 95%;
+
   }
-}
-
-
-@media only screen and (max-width: 768px) {
 
   .Name-Details {
     width: 100%;
     text-align: left;
     margin-top: 12px;
   }
-}
-
-@media only screen and (max-width: 768px) {
 
   .Name-Work {
     width: 100%;
     font-size: 24px;
   }
-}
-
-@media only screen and (max-width: 768px) {
 
   .Name-User {
     width: 100%;
     font-size: 18px;
+    margin-top: 20px
   }
+
+  .rightside{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
 }
 
 
-
-@media only screen and (max-width: 992px) {
-  .container-body{
-    width: 90%;
-  }
-}
 
 
 
