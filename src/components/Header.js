@@ -26,7 +26,8 @@ const Header = () => {
       <header>
         <div className="container-header">
           <div className="brand">
-            <img src="git.png " alt="" width="40px" />
+            <img src="mail.png " alt="" width="40px" />
+            <p>Work.bayuna@gmail.com</p>
           </div>
           <div className="links">
             <ul className="nav-list" id="navi-list">

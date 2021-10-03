@@ -3,7 +3,6 @@
   padding: 0;
 }
 .Body {
-  margin: auto;
   display: flex;
   width: 100%;
 }
@@ -14,6 +13,8 @@
   margin: auto;
   padding: 10px;
   flex-wrap: nowrap;
+  margin-top: 48px;
+  position: relative;
 }
 
 .leftside{
@@ -84,9 +85,6 @@ height: auto;
   }
 }
 
-@media only screen and (max-width: 768px) { 
-
-}
 
 @media only screen and (max-width: 992px) { 
   .profile {
@@ -108,6 +106,10 @@ height: auto;
 }
 
 @media only screen and (max-width: 768px) {
+  
+  .Body{
+    margin: auto;
+  }
   .container-body{
     flex-wrap: wrap;
     width: 100%;
@@ -117,6 +119,7 @@ height: auto;
   .profile {
     width: 70%;
     border-radius: 0%;
+  
   }
 
   .Body{
@@ -146,7 +149,7 @@ height: auto;
     margin: auto;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     order: -1;
   }
   
