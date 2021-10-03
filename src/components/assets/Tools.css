@@ -1,0 +1,46 @@
+.Tools{
+    height: auto;
+    background-color:#07b53b ;
+}
+
+.container-tools{
+    padding: 10px;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.title-tools {
+    font-size: 16px;
+    margin: auto;
+    align-items: center;
+    font-weight: 500;
+}
+
+.skills-icon{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+ .skills-icon img{
+    width: 60px;
+    height: 60px;
+    /* border-radius: 4px; */
+}
+
+
+@media only screen and (max-width:768px) {
+    .skills-icon img{
+        width: 40px;
+        height: 40px;
+        /* border-radius: 4px; */
+    }
+    
+}

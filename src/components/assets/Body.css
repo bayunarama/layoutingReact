@@ -111,10 +111,11 @@ height: auto;
   .container-body{
     flex-wrap: wrap;
     width: 100%;
+    
   }
 
   .profile {
-    width: 80%;
+    width: 70%;
     border-radius: 0%;
   }
 
@@ -145,7 +146,8 @@ height: auto;
     margin: auto;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
+    order: -1;
   }
   
 }

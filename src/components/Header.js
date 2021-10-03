@@ -1,7 +1,14 @@
 import React from "react";
 import "./assets/Style.css";
-import { FiMenu } from "react-icons/fi";
+// import { FiMenu } from "react-icons/fi";
+
 const Header = () => {
+  //   const toggleButton = document.getElementById("toggle-button");
+  // const naviList = document.getElementById("navi-list");
+  // toggleButton.addEventListener('click', () =>{
+  //   naviList.classList.toggle('active');
+  // })
+
   return (
     <div className="Header">
       {/* <div className="leftside">
@@ -22,7 +29,7 @@ const Header = () => {
             <img src="git.png " alt="" width="40px" />
           </div>
           <div className="links">
-            <ul className="nav-list">
+            <ul className="nav-list" id="navi-list">
               <li className="list-item">
                 <a href="/home">My Work</a>{" "}
               </li>
@@ -38,8 +45,11 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="hamburger-menu">
-            <FiMenu size="24px" />
+          <div className="hamburger-menu" id="toggle-button">
+            {/* <FiMenu size="24px" /> */}
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
           </div>
         </div>
       </header>
